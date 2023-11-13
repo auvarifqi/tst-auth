@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "username": "auva",
+        "password_hash": "$2b$12$XnUNCBUUDrPkMJq0uzH.WeKGnT8syfAqz1gAgNZn8Fvcjv6/ZgoxS",
+        "is_admin": true
+    },
+    {
+        "id": 2,
+        "username": "pak bas",
+        "password_hash": "$2b$12$c2pkUesW1AJsq3r.7axrS.uoTV8rFP8kW.dQQjgeuV97vLzFJyn8S",
+        "is_admin": false
+    },
+    {
+        "id": 3,
+        "username": "pak bas",
+        "password_hash": "$2b$12$ycshStHKS7iAzOTEqW8BqeEzkGlvj9KxoWVNKBmHFMhZYcar/Wssi",
+        "is_admin": false
+    },
+    {
+        "id": 4,
+        "username": "pak bas",
+        "password_hash": "$2b$12$mZTebjiCIFRGyRaTPmByTuuDlgMWnQb9AN6yzwAw.MiNIkCLkceJ6",
+        "is_admin": false
+    }
+]

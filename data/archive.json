@@ -1,0 +1,84 @@
+{
+    "threat_data": [
+        {
+            "ThreatID": 0,
+            "ThreatName": "string",
+            "ThreatType": "string",
+            "ThreatSeverity": 0,
+            "ThreatDescription": "string",
+            "ThreatSource": "string",
+            "StatusVerified": true
+        },
+        {
+            "ThreatID": 1,
+            "ThreatName": "string",
+            "ThreatType": "string",
+            "ThreatSeverity": 0,
+            "ThreatDescription": "string",
+            "ThreatSource": "string",
+            "StatusVerified": false
+        },
+        {
+            "ThreatID": 3,
+            "ThreatName": "DDoS Attack",
+            "ThreatType": "Network",
+            "ThreatSeverity": 8,
+            "ThreatDescription": "Large-scale DDoS attack targeting web servers.",
+            "ThreatSource": "NetworkTraffic",
+            "StatusVerified": true
+        },
+        {
+            "ThreatID": 4,
+            "ThreatName": "SQL Injection",
+            "ThreatType": "Web Application",
+            "ThreatSeverity": 6,
+            "ThreatDescription": "Attempted SQL injection attack on the login page.",
+            "ThreatSource": "WebServerLogs",
+            "StatusVerified": true
+        },
+        {
+            "ThreatID": 5,
+            "ThreatName": "Spoofing",
+            "ThreatType": "Software Application",
+            "ThreatSeverity": 8,
+            "ThreatDescription": "TBA",
+            "ThreatSource": "Ads",
+            "StatusVerified": true
+        },
+        {
+            "ThreatID": 6,
+            "ThreatName": "string",
+            "ThreatType": "string",
+            "ThreatSeverity": 0,
+            "ThreatDescription": "string",
+            "ThreatSource": "string",
+            "StatusVerified": true
+        }
+    ],
+    "threat_log": [
+        {
+            "LogID": 1,
+            "ThreatID": 1,
+            "SourceID": 1,
+            "LogDescription": "Detected a new variant of ransomware targeting Windows systems."
+        },
+        {
+            "LogID": 2,
+            "ThreatID": 2,
+            "SourceID": 2,
+            "LogDescription": "Received a phishing email with suspicious attachments."
+        },
+        {
+            "LogID": 3,
+            "ThreatID": 3,
+            "SourceID": 3,
+            "LogDescription": "Observed increased traffic, possible DDoS attack."
+        },
+        {
+            "LogID": 4,
+            "ThreatID": 4,
+            "SourceID": 4,
+            "LogDescription": "Identified an attempted SQL injection attack on the login page."
+        }
+    ]
+}
