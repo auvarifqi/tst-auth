@@ -15,8 +15,7 @@ threat_log = data.get("threat_log", [])
 
 
 
-choice_router = APIRouter(tags=["Choices"])
-requirement_router = APIRouter(tags=["Requirements"])
+
 archive_router = APIRouter(tags=['Archive'])
 verify_router = APIRouter(tags=['Verify and Edit'])
 
