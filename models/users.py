@@ -4,6 +4,7 @@ from pydantic import BaseModel
 class UserIn(BaseModel):
     username: str
     password: str
+    
 
 # Pydantic model for token response
 class Token(BaseModel):
@@ -16,4 +17,6 @@ class UserJSON(BaseModel):
     username: str
     password_hash: str
     is_admin: bool
+    tokenTicket: str
+    
 

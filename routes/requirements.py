@@ -3,7 +3,10 @@ from typing import List, Optional
 import json
 from models.archive import ThreatData, ThreatLog
 from models.users import UserJSON
+from models.ticket import Tiket
 from routes.auth import get_current_user
+import httpx
+import requests
 
 # Load data from the JSON file
 with open("data/archive.json", "r") as json_file:
@@ -18,6 +21,7 @@ threat_log = data.get("threat_log", [])
 
 archive_router = APIRouter(tags=['Archive'])
 verify_router = APIRouter(tags=['Verify and Edit'])
+transaction_router = APIRouter(tags=['Ticket Transaction'])
 
 #Archive Router
 @archive_router.get("/threatdata", response_model = List[ThreatData])
@@ -147,4 +151,70 @@ def delete_threatlog(log_id: int, user: UserJSON = Depends(get_current_user)):
     raise HTTPException(status_code=404, detail="ThreatLog not found")
 
 
+#API dari Komeng
+# Route untuk mendapatkan seluruh transaksi tiket
+@transaction_router.get("/ticketing")
+async def get_ticketing_data(user: UserJSON = Depends(get_current_user)):
+    try:
+        headers = {
+            "Authorization" : f"Bearer {user.tokenTicket}"
+        }
+        # Lakukan permintaan HTTP ke API eksternal
+        async with httpx.AsyncClient() as client:
+            response = await client.get("https://holi-train-travel.grayrock-b84a6c08.australiaeast.azurecontainerapps.io/tiket", headers=headers)
+        
+        # Periksa apakah permintaan berhasil (kode status 200)
+        response.raise_for_status()
 
+        # Ubah respons JSON menjadi bentuk yang sesuai dengan model Anda
+        ticketing_data = response.json()
+        
+        return ticketing_data
+
+    except requests.RequestException as e:
+        # Tangani kesalahan HTTP jika terjadi
+        raise HTTPException(status_code=e.response.status_code, detail=str(e))
+
+    except Exception as e:
+        # Tangani kesalahan umum jika terjadi
+        raise HTTPException(status_code=500, detail=str(e))
+    
+    
+# Route untuk mengubah note
+@transaction_router.put("/ticketing/{ticket_id}")
+async def update_ticketing_data(ticket_id: int, newData: Tiket, user: UserJSON = Depends(get_current_user)):
+    try:
+        print(1)
+        change_dict = newData.dict()
+    except Exception as e:
+        raise HTTPException(status_code=422, detail="Invalid input data")
+    
+    headers = {
+        "Authorization" : f"Bearer {user.tokenTicket}"
+    }
+    
+    url = f"https://holi-train-travel.grayrock-b84a6c08.australiaeast.azurecontainerapps.io/tiket/{ticket_id}"
+
+    print(change_dict)
+    
+    try:
+         # Lakukan permintaan HTTP ke API eksternal
+        
+        response =  requests.put(url, json=change_dict, headers=headers)
+        
+        # Periksa apakah permintaan berhasil (kode status 200)
+        print(response.json())
+        response.raise_for_status()
+        # Ubah respons JSON menjadi bentuk yang sesuai dengan model Anda
+        external_ticket_data = response.json()
+        
+        return external_ticket_data
+    except httpx.HTTPError as e:
+        # Tangani kesalahan HTTP jika terjadi
+        raise HTTPException(status_code=400, detail=str(e))
+    
+    except Exception as e:
+        # Tangani kesalahan umum jika terjadi
+        raise HTTPException(status_code=500, detail=str(e))
+    
+        

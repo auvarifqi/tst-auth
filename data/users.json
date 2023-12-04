@@ -3,24 +3,42 @@
         "id": 1,
         "username": "auva",
         "password_hash": "$2b$12$XnUNCBUUDrPkMJq0uzH.WeKGnT8syfAqz1gAgNZn8Fvcjv6/ZgoxS",
-        "is_admin": true
+        "is_admin": true,
+        "tokenTicket": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXZhIiwiZXhwIjoxNzAxNzEwODg0fQ.0b4HatSbvkOHWDQbiXpJo8zIUkT1Pdj6K6o3maIG1Co"
     },
     {
         "id": 2,
         "username": "pak bas",
         "password_hash": "$2b$12$c2pkUesW1AJsq3r.7axrS.uoTV8rFP8kW.dQQjgeuV97vLzFJyn8S",
-        "is_admin": false
+        "is_admin": false,
+        "tokenTicket": ""
     },
     {
         "id": 3,
         "username": "pak bas",
         "password_hash": "$2b$12$ycshStHKS7iAzOTEqW8BqeEzkGlvj9KxoWVNKBmHFMhZYcar/Wssi",
-        "is_admin": false
+        "is_admin": false,
+        "tokenTicket": ""
     },
     {
         "id": 4,
         "username": "pak bas",
         "password_hash": "$2b$12$mZTebjiCIFRGyRaTPmByTuuDlgMWnQb9AN6yzwAw.MiNIkCLkceJ6",
-        "is_admin": false
+        "is_admin": false,
+        "tokenTicket": ""
+    },
+    {
+        "id": 5,
+        "username": "jon",
+        "password_hash": "$2b$12$DoNiLvdLSyYXLB6ry/JIoOUoFOSUs8iW8dkhIBtuNJ6OyhumfkkUC",
+        "is_admin": true,
+        "tokenTicket": ""
+    },
+    {
+        "id": 6,
+        "username": "ubed",
+        "password_hash": "$2b$12$DS3.1CuoW4CZfWg/z/lMm.5YBlTLt7B3nqK35FmGUNIkm/I0ziB8u",
+        "is_admin": true,
+        "tokenTicket": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YmVkIiwiZXhwIjoxNzAxNzIyMTAwfQ.suR22F5hZwtmXMNBkcX3DZkrpLwbByA72f2PkPPNp5U"
     }
 ]
