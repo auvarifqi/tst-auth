@@ -40,5 +40,54 @@
         "password_hash": "$2b$12$DS3.1CuoW4CZfWg/z/lMm.5YBlTLt7B3nqK35FmGUNIkm/I0ziB8u",
         "is_admin": true,
         "tokenTicket": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YmVkIiwiZXhwIjoxNzAxNzIyMTAwfQ.suR22F5hZwtmXMNBkcX3DZkrpLwbByA72f2PkPPNp5U"
+    },
+    {
+        "id": 7,
+        "username": "pablo",
+        "password_hash": "$2b$12$SICyfnUoR6x4py0zbfiqf.h4/Kmog/CEN2BLHnumx.oFcJy20cwiC",
+        "is_admin": true,
+        "tokenTicket": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYWJsbyIsImV4cCI6MTcwMTc1NjM2NX0.xg21jiVX75rG8qP0WtjvVRL5jzIRAXoFlbDmNbTHgrQ"
+    },
+    {
+        "id": 8,
+        "username": "pablo",
+        "password_hash": "$2b$12$c4TVvsHtHaFb5gpLu7XBoONzF.3/e.nfj4eZ.QpmjQ5JVmWpKlg9S",
+        "is_admin": true,
+        "tokenTicket": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYWJsbyIsImV4cCI6MTcwMTc1NjM2NX0.xg21jiVX75rG8qP0WtjvVRL5jzIRAXoFlbDmNbTHgrQ"
+    },
+    {
+        "id": 9,
+        "username": "pablo",
+        "password_hash": "$2b$12$nk5ufbW/Dd31J.UgwItfsuawEQyQOz6DDACROlqubZd9a2MKRzyWO",
+        "is_admin": true,
+        "tokenTicket": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYWJsbyIsImV4cCI6MTcwMTc1NjM2NX0.xg21jiVX75rG8qP0WtjvVRL5jzIRAXoFlbDmNbTHgrQ"
+    },
+    {
+        "id": 10,
+        "username": "pablo",
+        "password_hash": "$2b$12$7jRhUs3RUgwsY69ywCX9O.zE8pxSPQcjX8DDZoiMFFldcd8TDlmCe",
+        "is_admin": true,
+        "tokenTicket": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYWJsbyIsImV4cCI6MTcwMTc1NjM2NX0.xg21jiVX75rG8qP0WtjvVRL5jzIRAXoFlbDmNbTHgrQ"
+    },
+    {
+        "id": 11,
+        "username": "pablo",
+        "password_hash": "$2b$12$QlNFsMtReskRvuh2BzgwoOQJrr8Vi4Am48ABYumBtbVjmY04io19W",
+        "is_admin": true,
+        "tokenTicket": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwYWJsbyIsImV4cCI6MTcwMTc1NjM2NX0.xg21jiVX75rG8qP0WtjvVRL5jzIRAXoFlbDmNbTHgrQ"
+    },
+    {
+        "id": 12,
+        "username": "budi",
+        "password_hash": "$2b$12$Wr7tevpTa2d6pM.l/J0L5OITLnThN5qeoWNjOdtcaKCzOkQUjYBWO",
+        "is_admin": true,
+        "tokenTicket": ""
+    },
+    {
+        "id": 13,
+        "username": "iyal",
+        "password_hash": "$2b$12$r7NNzAhMamwc3S0J904AxOLLf0JrS/RNsQ7y48CCUDpUNcTlCN2cu",
+        "is_admin": true,
+        "tokenTicket": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJpeWFsIiwiZXhwIjoxNzAxNzU2NTQxfQ.l5iL46sFK70QvHnezvfBSM1KylcgIjByhdFWOaAZbew"
     }
 ]
