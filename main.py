@@ -4,7 +4,7 @@ from routes.auth import auth_router
 
 app = FastAPI()
 
+app.include_router(auth_router)  
 app.include_router(archive_router, prefix ="/archive")
 app.include_router(verify_router, prefix ="/verify")
 app.include_router(transaction_router, prefix ="/transaction")
-app.include_router(auth_router)  

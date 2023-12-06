@@ -89,5 +89,12 @@
         "password_hash": "$2b$12$r7NNzAhMamwc3S0J904AxOLLf0JrS/RNsQ7y48CCUDpUNcTlCN2cu",
         "is_admin": true,
         "tokenTicket": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJpeWFsIiwiZXhwIjoxNzAxNzU2NTQxfQ.l5iL46sFK70QvHnezvfBSM1KylcgIjByhdFWOaAZbew"
+    },
+    {
+        "id": 14,
+        "username": "kevin",
+        "password_hash": "$2b$12$i8AC19Qg/P7VmWn1iilaC.oA/.0tUx7xxVbNXPGWKJv52Q3obNgLa",
+        "is_admin": true,
+        "tokenTicket": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrZXZpbiIsImV4cCI6MTcwMTc1OTY1Mn0.xopsp7N4nbFxFXzB1gNe1ZfSjkcvlKXJz08S6x_bTyU"
     }
 ]

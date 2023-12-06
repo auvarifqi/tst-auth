@@ -20,8 +20,8 @@ threat_log = data.get("threat_log", [])
 
 
 archive_router = APIRouter(tags=['Archive'])
-verify_router = APIRouter(tags=['Verify and Edit'])
-transaction_router = APIRouter(tags=['Ticket Transaction'])
+verify_router = APIRouter(tags=['Verify and Edit Archive'])
+transaction_router = APIRouter(tags=['KAI Ticket Transaction Security Archive'])
 
 #Archive Router
 @archive_router.get("/threatdata", response_model = List[ThreatData])
