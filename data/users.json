@@ -96,5 +96,12 @@
         "password_hash": "$2b$12$i8AC19Qg/P7VmWn1iilaC.oA/.0tUx7xxVbNXPGWKJv52Q3obNgLa",
         "is_admin": true,
         "tokenTicket": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrZXZpbiIsImV4cCI6MTcwMTc1OTY1Mn0.xopsp7N4nbFxFXzB1gNe1ZfSjkcvlKXJz08S6x_bTyU"
+    },
+    {
+        "id": 15,
+        "username": "adre",
+        "password_hash": "$2b$12$x4dmnpi11cymGVmIUg.8X.PzniBS7.UVjdxe/.mtGm.i78IZZJ2ZK",
+        "is_admin": true,
+        "tokenTicket": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZHJlIiwiZXhwIjoxNzAyMDMxNjg4fQ.Jq75r0n-pOeCEf2zGs_Ns855SdC63fZsofUXO64I1Gs"
     }
 ]

@@ -11,12 +11,12 @@
         },
         {
             "ThreatID": 1,
-            "ThreatName": "string",
-            "ThreatType": "string",
-            "ThreatSeverity": 0,
-            "ThreatDescription": "string",
-            "ThreatSource": "string",
-            "StatusVerified": false
+            "ThreatName": "PhishingAttack2023",
+            "ThreatType": "Phishing",
+            "ThreatSeverity": 8,
+            "ThreatDescription": "Serangan phishing yang menargetkan pengguna perbankan online dengan mengirimkan email palsu untuk mencuri informasi login.",
+            "ThreatSource": "Internet",
+            "StatusVerified": true
         },
         {
             "ThreatID": 3,
@@ -38,20 +38,11 @@
         },
         {
             "ThreatID": 5,
-            "ThreatName": "Spoofing",
-            "ThreatType": "Software Application",
-            "ThreatSeverity": 8,
-            "ThreatDescription": "TBA",
-            "ThreatSource": "Ads",
-            "StatusVerified": true
-        },
-        {
-            "ThreatID": 6,
-            "ThreatName": "string",
-            "ThreatType": "string",
-            "ThreatSeverity": 0,
-            "ThreatDescription": "string",
-            "ThreatSource": "string",
+            "ThreatName": "MalwareAttack2023",
+            "ThreatType": "Malware",
+            "ThreatSeverity": 9,
+            "ThreatDescription": "Serangan malware berbahaya yang menyerang sistem keamanan pada perusahaan XYZ.",
+            "ThreatSource": "Internet",
             "StatusVerified": true
         }
     ],
@@ -76,9 +67,9 @@
         },
         {
             "LogID": 4,
-            "ThreatID": 4,
-            "SourceID": 4,
-            "LogDescription": "Identified an attempted SQL injection attack on the login page."
+            "ThreatID": 123,
+            "SourceID": 456,
+            "LogDescription": "Terdeteksi serangan malware pada server utama pada pukul 10:23 pagi."
         }
     ]
 }
